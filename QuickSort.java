@@ -33,10 +33,7 @@ class QuickSort
     } 
   
   
-    /* The main function that implements QuickSort() 
-      arr[] --> Array to be sorted, 
-      low  --> Starting index, 
-      high  --> Ending index */
+    //Implementation of our quickSort algorithm
     public static void quickSortFunction(int arr[], int low, int high) 
     { 
         if (low < high) 
